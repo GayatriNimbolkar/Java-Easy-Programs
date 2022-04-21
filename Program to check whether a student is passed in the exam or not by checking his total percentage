@@ -1,0 +1,24 @@
+Program to check whether a student is passed in the exam or not by checking his total percentage
+
+import java.util.Scanner;
+class StringPracticeSet3 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your marks in M3: ");
+        float s1=sc.nextFloat();
+        System.out.println("Enter your marks in DSA: ");
+        float s2=sc.nextFloat();
+        System.out.println("Enter your marks in PPL: ");
+        float s3=sc.nextFloat();
+        float per=s1+s2+s3*100/300;
+        System.out.println("Your total percentage for this exam: "+per);
+        if(per>=40 && s1>=33 && s2>=33 && s3>=33){
+            System.out.println("You have passed in the exam");
+        }
+        else{
+            System.out.println("You have failed in the exam");
+        }
+       
+       
+    }
+}
