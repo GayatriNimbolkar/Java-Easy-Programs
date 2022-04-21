@@ -1,0 +1,37 @@
+//program to find which day of week it is using numbers
+
+
+import java.util.Scanner;
+class StringPracticeSet3 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter number to know which day of the week is ths : ");
+        int day = sc.nextInt();
+        switch(day){
+            case 1:
+                System.out.println("It's Monday");
+                break;
+            case 2:
+                System.out.println("It's Tueday");
+                break;
+            case 3:
+                System.out.println("It's Wednesday");
+                break;
+            case 4:
+                System.out.println("It's Thursday");
+                break;
+            case 5:
+                System.out.println("It's Friday");
+                break;
+            case 6:
+                System.out.println("It's Saturday");
+                break;
+            case 7:
+                System.out.println("It's Sunday");
+                break;
+            default:
+            System.out.println("Entered wrong number");
+        }
+       
+    }
+}
