@@ -1,0 +1,23 @@
+Program to calculate percentage of 5 subjects
+
+class CwhEx1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the toral marks obtained in each subject ");
+        System.out.println("Enter the toral marks obtained in DSA:");
+        int dsa= sc.nextInt();
+        System.out.println("Enter the toral marks obtained in MP:");
+        int mp= sc.nextInt();
+        System.out.println("Enter the toral marks obtained in PPL:");
+        int ppl= sc.nextInt();
+        System.out.println("Enter the toral marks obtained in M3:");
+        int m3= sc.nextInt();
+        System.out.println("Enter the toral marks obtained in SE:");
+        int se= sc.nextInt();
+        int marks= dsa+ppl+mp+se+m3;
+        float per= marks*100/500;
+        System.out.println("Total Percentage of this Semister is: "+per);
+       
+       
+    }
+}
